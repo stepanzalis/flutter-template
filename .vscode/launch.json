@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "STAGE",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "--dart-define=environment=STAGE",
+            ]
+        },
+        {
+            "name": "PROD",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "--dart-define=environment=PROD"
+            ]
+        }
+    ],
+}
